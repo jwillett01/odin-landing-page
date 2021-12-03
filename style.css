@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue";
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 16px 240px;
+}
+
+ul {
+    font-family: "Helvetica Neue";
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 16px;
+}
+
+.header-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+a {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    width: 88px;
+    text-align: center;
+    color: #F9FAF8;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-main-container {
+    display: flex;
+    flex-direction: row;
+    padding: 90px 0;
+    gap: 60px;
+    align-content: space-evenly;
+}
+
+.steak-img {
+    display: flex;
+    flex-basis: 50%;
+    width: auto;
+    height: 250px;
+    max-width: 367px;
+    max-height: 100%;
+}
+
+.meat-imgs {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgs-and-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    align-content: center;
+    max-width: 200px;
+}
+
+h2 {
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+    color: darkslategrey;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 88px;
+}
+
+.quote-block {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    width: 500px;
+    max-width: 500px;
+    visibility: hidden;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-box {
+    background-color: #3882F6;
+    margin: 120px 240px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 32px;
+    padding: 0 32px;
+  }
+
+  .signup-text {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .signup-button {
+      border-style: solid;
+      border-radius: 8px;
+      border-width: 1px;
+      padding: 4px 16px;
+  }
+
+  .su-head {
+      margin-bottom: 0;
+      margin-top: 20px;
+      font-size: 24px;
+  }
+
+  .su-text {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 16px;
+  }
+
+  .footer {
+      height: 100px;
+      background-color: #1F2937;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .footer-text {
+      display: flex;
+      justify-content: center;
+      color: #E5E7EB;
+      font-size: 16px;
+  }
